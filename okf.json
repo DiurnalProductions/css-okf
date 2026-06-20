@@ -1,0 +1,8 @@
+{
+  "id": "css-okf",
+  "name": "CSS Knowledge Pack",
+  "version": "0.1",
+  "description": "OKF knowledge base for modern CSS including layout, cascade, and responsive design",
+  "entry": "index.md",
+  "tags": ["css", "frontend", "styling", "web", "layout"]
+}
