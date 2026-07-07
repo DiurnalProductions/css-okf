@@ -1,16 +1,15 @@
 ---
-id: css.flexbox
-type: concept
+type: Concept
 title: Flexbox Layout Model
 description: One-dimensional layout system for arranging elements in rows or columns
 tags: [css, flexbox, layout]
 prerequisites:
-  - css.box-model
-  - css.display
+  - concepts/box-model
+  - concepts/display
 related:
-  - css.grid
-  - css.responsive-design
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
+  - concepts/grid
+  - concepts/responsive-design
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout"
 timestamp: 2026-01-01
 ---
 

@@ -1,18 +1,17 @@
 ---
-id: css.responsive-design
-type: concept
+type: Concept
 title: Responsive Web Design
 description: Adapting layout and typography to viewport and container size using fluid units and conditional rules
 tags: [css, responsive, media-queries, container-queries]
 prerequisites:
-  - css.flexbox
-  - css.grid
-  - css.display
+  - concepts/flexbox
+  - concepts/grid
+  - concepts/display
 related:
-  - css.flexbox
-  - css.grid
-  - css.modern-css
-resource: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+  - concepts/flexbox
+  - concepts/grid
+  - concepts/modern-css
+resource: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
 timestamp: 2026-01-01
 ---
 

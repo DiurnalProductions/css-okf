@@ -1,20 +1,19 @@
 ---
-id: css.modern-css
-type: concept
+type: Concept
 title: Modern CSS
-description: Contemporary CSS features including custom properties, math functions, nesting, layers, and logical properties
+description: "Contemporary CSS features including custom properties, math functions, nesting, layers, and logical properties"
 tags: [css, custom-properties, nesting, clamp, layers]
 prerequisites:
-  - css.cascade
-  - css.specificity
+  - concepts/cascade
+  - concepts/specificity
 related:
-  - css.responsive-design
-  - css.flexbox
-  - css.grid
-  - css.animations
-  - css.selectors
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS
-timestamp: 2026-01-01
+  - concepts/responsive-design
+  - concepts/flexbox
+  - concepts/grid
+  - concepts/animations
+  - concepts/selectors
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+timestamp: 2026-07-06
 ---
 
 # Summary
@@ -96,7 +95,8 @@ Custom properties inherit and cascade like other properties — they enable runt
 - Nesting too deeply, recreating overly specific selectors — use `&` thoughtfully.
 - Putting all styles in one `@layer` — defeats the purpose of predictable override ordering.
 - Using `clamp()` without testing minimum and maximum at extreme viewport sizes.
-- Assuming universal support for newest selectors (`:has`) without fallbacks where needed.
+- Treating `:has()` as exotic — it has been Baseline in all major browsers since December 2023; verify support only when targeting older engines.
+- Ignoring newer primitives worth knowing: `@scope` for scoped styles, view transitions for animated page/state changes, and `text-wrap: balance` for headings.
 
 # Related concepts
 

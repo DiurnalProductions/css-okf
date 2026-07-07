@@ -1,16 +1,15 @@
 ---
-id: css.positioning
-type: concept
+type: Concept
 title: CSS Positioning
-description: Placing elements relative to normal flow, ancestors, or the viewport using position and inset properties
+description: "Placing elements relative to normal flow, ancestors, or the viewport using position and inset properties"
 tags: [css, positioning, layout, display]
 prerequisites:
-  - css.display
+  - concepts/display
 related:
-  - css.display
-  - css.box-model
-  - css.responsive-design
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+  - concepts/display
+  - concepts/box-model
+  - concepts/responsive-design
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
 timestamp: 2026-01-01
 ---
 

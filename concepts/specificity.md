@@ -1,15 +1,14 @@
 ---
-id: css.specificity
-type: concept
+type: Concept
 title: CSS Specificity
 description: A weighting system that ranks selectors when the cascade must break ties
 tags: [css, specificity, cascade, selectors]
 prerequisites:
-  - css.cascade
+  - concepts/cascade
 related:
-  - css.selectors
-  - css.modern-css
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity
+  - concepts/selectors
+  - concepts/modern-css
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity"
 timestamp: 2026-01-01
 ---
 

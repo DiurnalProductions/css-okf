@@ -1,3 +1,12 @@
+---
+okf_version: "0.1"
+id: css-okf
+name: CSS Knowledge Pack
+version: "0.1"
+description: "OKF knowledge base for modern CSS including layout, cascade, and responsive design"
+tags: [css, frontend, styling, web, layout]
+---
+
 # CSS Knowledge Pack
 
 A structured learning path for modern CSS — from how rules compete to how layouts adapt across viewports.

@@ -1,15 +1,14 @@
 ---
-id: css.cascade
-type: concept
+type: Concept
 title: The CSS Cascade
 description: The algorithm that determines which declaration wins when multiple rules apply to the same element
 tags: [css, cascade, specificity, inheritance]
 prerequisites:
-  - css.selectors
+  - concepts/selectors
 related:
-  - css.specificity
-  - css.modern-css
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade
+  - concepts/specificity
+  - concepts/modern-css
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade"
 timestamp: 2026-01-01
 ---
 

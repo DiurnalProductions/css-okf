@@ -1,17 +1,16 @@
 ---
-id: css.grid
-type: concept
+type: Concept
 title: CSS Grid Layout
-description: Two-dimensional layout system with explicit rows, columns, tracks, and named areas
+description: "Two-dimensional layout system with explicit rows, columns, tracks, and named areas"
 tags: [css, grid, layout]
 prerequisites:
-  - css.display
-  - css.flexbox
+  - concepts/display
+  - concepts/flexbox
 related:
-  - css.flexbox
-  - css.responsive-design
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
-timestamp: 2026-01-01
+  - concepts/flexbox
+  - concepts/responsive-design
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout"
+timestamp: 2026-07-06
 ---
 
 # Summary
@@ -78,7 +77,7 @@ Line numbers start at 1; negative indices count from the end. `gap` (or `row-gap
 - Mixing up `grid-template-areas` names — every row must have the same number of cells and consistent area names.
 - Using flexbox mental model only — grid items don't need `flex: 1`; placement and track sizing drive layout.
 - Forgetting that grid children become blockified for sizing purposes.
-- Over-specifying line numbers when `grid-area` or `subgrid` (where supported) would simplify.
+- Over-specifying line numbers when `grid-area` or `subgrid` (supported in all major browsers since late 2023) would simplify.
 - Expecting implicit row heights to match explicit row sizing without `grid-auto-rows`.
 
 # Related concepts

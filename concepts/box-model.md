@@ -1,16 +1,15 @@
 ---
-id: css.box-model
-type: concept
+type: Concept
 title: CSS Box Model
-description: How margin, border, padding, and content boxes determine element size and spacing
+description: "How margin, border, padding, and content boxes determine element size and spacing"
 tags: [css, box-model, layout]
 prerequisites:
-  - css.specificity
+  - concepts/specificity
 related:
-  - css.display
-  - css.flexbox
-  - css.grid
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model
+  - concepts/display
+  - concepts/flexbox
+  - concepts/grid
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model"
 timestamp: 2026-01-01
 ---
 

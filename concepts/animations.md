@@ -1,15 +1,14 @@
 ---
-id: css.animations
-type: concept
+type: Concept
 title: CSS Animations and Transitions
-description: Time-based visual changes using transitions, keyframe animations, and motion preferences
+description: "Time-based visual changes using transitions, keyframe animations, and motion preferences"
 tags: [css, animations, transitions, keyframes]
 prerequisites:
-  - css.display
+  - concepts/display
 related:
-  - css.modern-css
-  - css.responsive-design
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations
+  - concepts/modern-css
+  - concepts/responsive-design
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations"
 timestamp: 2026-01-01
 ---
 

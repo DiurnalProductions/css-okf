@@ -1,14 +1,12 @@
 ---
-id: css.selectors
-type: concept
+type: Concept
 title: CSS Selectors
 description: Patterns that match elements in the DOM so declarations can be applied
 tags: [css, selectors, cascade]
-prerequisites: []
 related:
-  - css.cascade
-  - css.specificity
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors
+  - concepts/cascade
+  - concepts/specificity
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors"
 timestamp: 2026-01-01
 ---
 

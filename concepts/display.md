@@ -1,16 +1,15 @@
 ---
-id: css.display
-type: concept
+type: Concept
 title: CSS Display
-description: How elements generate boxes and participate in block, inline, flex, or grid formatting contexts
+description: "How elements generate boxes and participate in block, inline, flex, or grid formatting contexts"
 tags: [css, display, layout, flexbox, grid]
 prerequisites:
-  - css.box-model
+  - concepts/box-model
 related:
-  - css.positioning
-  - css.flexbox
-  - css.grid
-resource: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+  - concepts/positioning
+  - concepts/flexbox
+  - concepts/grid
+resource: "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
 timestamp: 2026-01-01
 ---
 
